@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SEO test</title>
+    <meta name="description" content="A sample page to test SEO scanning tools with diverse HTML elements and multilingual support.">
+    <meta name="keywords" content="SEO testing, HTML, multilingual content, website analysis, aaatraq, sitemorse">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        header, footer { background-color: #f4f4f4; padding: 10px; text-align: center; }
+        nav ul { list-style: none; padding: 0; }
+        nav li { display: inline; margin: 0 10px; }
+        main { margin-top: 20px; }
+        section { margin-bottom: 20px; }
+        form label { display: block; margin-top: 10px; }
+        form input, form textarea { width: 100%; padding: 8px; margin-top: 5px; }
+        form button { margin-top: 10px; padding: 10px 15px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SEO test <span>page</span></h1>
+        <h1>Site for <span lang="fr">testing SEO</span></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About this page</h2>
+            <p>This is a page that I wrote very quickly to make sure that the SEO scanner is working as expected</p>
+        </section>
+
+        <section id="services">
+            <h2>Bullet points</h2>
+            <ul>
+                <li>I like</li>
+                <li>Bullet points</li>
+                <li>Because they're</li>
+                <li>Easy to read</li>
+            </ul>
+            <p>And here's a <a href="https://www.aaatraq.com" target="_blank">link within a p</a></p>
+        </section>
+
+        <section id="contact">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <form action="#" method="post">
+                <label for="box1">Box 1:</label>
+                <input type="text" id="box1" name="box1">
+
+                <label for="box2">Box 2:</label>
+                <input type="text" id="box2" name="box2">
+
+                <label for="box3">Box 3:</label>
+                <textarea id="box3" name="box3" rows="5"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <aside>
+        <h3>More lorem</h3>
+        <ul>
+            <li><a href="https://www.sitemorse.com" target="_blank" rel="noopener noreferrer">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </a></li>
+            <li><a href="https://www.aaanow.ai" target="_blank" rel="noopener noreferrer">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>Blah blah copyright blah blah</p>
+    </footer>
+</body>
+</html>
