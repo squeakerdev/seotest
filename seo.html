@@ -70,6 +70,18 @@
         <input type="submit" value="Submit" id="submit">
         </form>
 
+        <script>
+        document.getElementById("myform").addEventListener("submit", function(event) {
+            event.preventDefault(); 
+        
+            const formData = new FormData(this);
+            const params = new URLSearchParams(formData).toString();
+            const newUrl = this.action + "?" + params;
+        
+            window.location.href = newUrl;
+        });
+        </script>
+
         <section id="contact">
             <h2>Lorem ipsum</h2>
             <p>4p 4pence 50p</p>
